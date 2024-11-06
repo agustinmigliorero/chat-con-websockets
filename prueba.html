@@ -1,0 +1,12 @@
+<button></button>
+<script>
+  function multiplicador(num) {
+    return function (arr) {
+      let arrNuevo = [];
+      for (let i = 0; i < arr.length; i++) {
+        arrNuevo.push(arr[i] * num);
+      }
+      return arrNuevo;
+    };
+  }
+</script>
